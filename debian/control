@@ -21,16 +21,9 @@ Multi-Arch: same
 Depends: libkpimkdav-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: libkpimkdav-data (<< ${source:Version}~ciBuild)
+Replaces: libkpimkdav-data (<< ${source:Version}~ciBuild)
 Description: DAV protocol implementation with KJobs
- A DAV protocol implementation with KJobs.
- .
- This package is part of the KDE PIM module.
-
-Package: libkpimkdav-data
-Architecture: all
-Depends: ${misc:Depends}
-Multi-Arch: foreign
-Description: DAV protocol implementation with KJobs - data files
  A DAV protocol implementation with KJobs.
  .
  This package is part of the KDE PIM module.
