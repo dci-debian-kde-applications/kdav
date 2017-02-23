@@ -33,7 +33,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Priority: extra
 Section: oldlibs
-Description: transitional
+Description: DAV protocol implementation with KJobs - transitional
  A DAV protocol implementation with KJobs.
  .
  This package is transitional and can be removed.
