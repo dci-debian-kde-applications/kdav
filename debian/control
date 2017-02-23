@@ -28,6 +28,16 @@ Description: DAV protocol implementation with KJobs
  .
  This package is part of the KDE PIM module.
 
+Package: libkpimkdav-data
+Architecture: all
+Depends: ${misc:Depends}
+Priority: extra
+Section: oldlibs
+Description: transitional
+ A DAV protocol implementation with KJobs.
+ .
+ This package is transitional and can be removed.
+
 Package: libkpimkdav-dev
 Section: libdevel
 Architecture: any
