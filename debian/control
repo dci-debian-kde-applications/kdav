@@ -18,9 +18,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdav.git
 Package: libkpimkdav5
 Architecture: any
 Multi-Arch: same
-Depends: libkpimkdav-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkpimkdav-data (<< ${source:Version}~ciBuild)
 Replaces: libkpimkdav-data (<< ${source:Version}~ciBuild)
 Description: DAV protocol implementation with KJobs
