@@ -34,7 +34,7 @@ Section: oldlibs
 Description: DAV protocol implementation with KJobs - transitional
  A DAV protocol implementation with KJobs.
  .
- This package is transitional and can be removed.
+ This package is transitional dependency package and can be removed.
 
 Package: libkpimkdav-dev
 Section: libdevel
