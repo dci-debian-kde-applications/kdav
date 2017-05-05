@@ -40,7 +40,10 @@ Package: libkpimkdav-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkpimkdav5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: libkf5coreaddons-dev,
+         libkpimkdav5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: DAV protocol implementation with KJobs - developer files
  A DAV protocol implementation with KJobs.
  .
