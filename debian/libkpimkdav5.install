@@ -1,2 +1,2 @@
 etc/xdg/kdav.categories
-usr/lib/*/libKPimKDAV.so.5*
+usr/lib/*/libKPimKDAV.so.5.*
