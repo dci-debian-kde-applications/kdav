@@ -9,22 +9,11 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5kio-dev,
                libqt5xmlpatterns5-dev,
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev
+               qtbase5-dev,
 Standards-Version: 4.1.0
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdav.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdav.git
-
-Package: libkpimkdav5
-Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkpimkdav-data (<< 17.04.0)
-Replaces: libkpimkdav-data (<< 17.04.0)
-Description: DAV protocol implementation with KJobs
- A DAV protocol implementation with KJobs.
- .
- This package is part of the KDE PIM module.
 
 Package: libkpimkdav-data
 Architecture: all
@@ -42,6 +31,17 @@ Architecture: any
 Multi-Arch: same
 Depends: libkpimkdav5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: DAV protocol implementation with KJobs - developer files
+ A DAV protocol implementation with KJobs.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkpimkdav5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkpimkdav-data (<< 17.04.0)
+Replaces: libkpimkdav-data (<< 17.04.0)
+Description: DAV protocol implementation with KJobs
  A DAV protocol implementation with KJobs.
  .
  This package is part of the KDE PIM module.
