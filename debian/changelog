@@ -1,8 +1,13 @@
-kdav (17.08.0-1~) UNRELEASED; urgency=medium
+kdav (17.08.0-1) experimental; urgency=medium
 
   * New upstream release (17.08.0)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Update copyright file
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Aug 2017 09:52:24 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:08:20 +0200
 
 kdav (17.08.0-0neon) xenial; urgency=medium
 
