@@ -21,7 +21,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkpimkdav5 (= ${binary:Version}), ${misc:Depends}
-Description: DAV protocol implementation with KJobs - developer files
+Description: DAV protocol implementation with KJobs - development files
  A DAV protocol implementation with KJobs.
  .
  This package contains the development files to work with KDav.
