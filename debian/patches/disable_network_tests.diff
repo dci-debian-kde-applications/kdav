@@ -1,7 +1,5 @@
-Index: kdav/autotests/CMakeLists.txt
-===================================================================
---- kdav.orig/autotests/CMakeLists.txt
-+++ kdav/autotests/CMakeLists.txt
+--- a/autotests/CMakeLists.txt
++++ b/autotests/CMakeLists.txt
 @@ -18,15 +18,3 @@ ecm_add_test(davurltest.cpp
      NAME_PREFIX "kdav-"
      LINK_LIBRARIES KPim::KDAV Qt5::Test Qt5::Core
