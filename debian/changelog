@@ -4,6 +4,7 @@ kdav (17.08.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-Version to 4.1.1, no changes required.
   * Drop transitional libkpimkdav-data, never part of Debian stable/unstable.
+  * Remove obsolete breaks/replaces in libkpimkdav5.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Nov 2017 17:49:50 +0100
 

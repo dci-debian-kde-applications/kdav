@@ -30,8 +30,6 @@ Package: libkpimkdav5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkpimkdav-data (<< 17.04.0)
-Replaces: libkpimkdav-data (<< 17.04.0)
 Description: DAV protocol implementation with KJobs
  A DAV protocol implementation with KJobs.
  .
