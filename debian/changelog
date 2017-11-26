@@ -6,6 +6,7 @@ kdav (17.08.3-0r1) UNRELEASED; urgency=medium
   * Drop transitional libkpimkdav-data, never part of Debian stable/unstable.
   * Remove obsolete breaks/replaces in libkpimkdav5.
   * Refresh patch disable_network_tests.diff.
+  * Remove unused ${shlibs:Depends} substvar from libkpimkdav-dev.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Nov 2017 17:49:50 +0100
 
