@@ -24,7 +24,9 @@ Depends: libkpimkdav5 (= ${binary:Version}), ${misc:Depends}
 Description: DAV protocol implementation with KJobs - developer files
  A DAV protocol implementation with KJobs.
  .
- This package is part of the KDE PIM module.
+ This package contains the development files to work with KDav.
+ .
+ KDav is part of the KDE PIM module.
 
 Package: libkpimkdav5
 Architecture: any
@@ -33,4 +35,6 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: DAV protocol implementation with KJobs
  A DAV protocol implementation with KJobs.
  .
- This package is part of the KDE PIM module.
+ This package contains the shared library.
+ .
+ KDav is part of the KDE PIM module.

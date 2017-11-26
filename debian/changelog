@@ -10,6 +10,7 @@ kdav (17.08.3-0r1) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Small tweaks to copyright.
   * Add a symbols file.
+  * Tweak the long descriptions.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Nov 2017 17:49:50 +0100
 
