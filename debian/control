@@ -16,16 +16,6 @@ Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdav.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdav.git
 
-Package: libkpimkdav-data
-Architecture: all
-Depends: ${misc:Depends}
-Priority: extra
-Section: oldlibs
-Description: DAV protocol implementation with KJobs - transitional
- A DAV protocol implementation with KJobs.
- .
- This package is transitional dependency package and can be removed.
-
 Package: libkpimkdav-dev
 Section: libdevel
 Architecture: any
