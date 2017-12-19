@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 17.08.3 amd64
+# SymbolsHelper-Confirmed: 17.08.3 amd64 armel
 libKPimKDAV.so.5 libkpimkdav5 #MINVER#
 * Build-Depends-Package: libkpimkdav-dev
  _ZN4KDAV10DavJobBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 17.08.3
@@ -263,8 +263,10 @@ libKPimKDAV.so.5 libkpimkdav5 #MINVER#
  _ZNK4KDAV9EtagCache16changedRemoteIdsEv@Base 17.08.3
  _ZNK4KDAV9EtagCache4urlsEv@Base 17.08.3
  _ZNK4KDAV9EtagCache8containsERK7QString@Base 17.08.3
- (optional=templinst)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 17.08.3
- (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 17.08.3
+ (optional=templinst|arch=armel)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 17.08.3
+ (optional=templinst|arch=amd64)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 17.08.3
+ (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 17.08.3
+ (optional=templinst|arch=amd64)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 17.08.3
  _ZTIN4KDAV10DavJobBaseE@Base 17.08.3
  _ZTIN4KDAV15DavItemFetchJobE@Base 17.08.3
  _ZTIN4KDAV15DavItemsListJobE@Base 17.08.3
