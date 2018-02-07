@@ -22,7 +22,7 @@ Package: libkpimkdav-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkpimkdav5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkpimkdav5abi1 (= ${binary:Version}), ${misc:Depends}
 Description: DAV protocol implementation with KJobs - development files
  A DAV protocol implementation with KJobs.
  .
@@ -30,10 +30,25 @@ Description: DAV protocol implementation with KJobs - development files
  .
  KDav is part of the KDE PIM module.
 
-Package: libkpimkdav5
+Package: libkpimkdav-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkpimkdav5
+Replaces: libkpimkdav5
+Description: DAV protocol implementation with KJobs - arch independent files
+ A DAV protocol implementation with KJobs.
+ .
+ This package contains the arch independent files to work with KDav.
+ .
+ KDav is part of the KDE PIM module.
+
+Package: libkpimkdav5abi1
+X-Debian-ABI: 1
+X-CMake-Target: KPimKDAV
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libkpimkdav-data (= ${source:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: DAV protocol implementation with KJobs
  A DAV protocol implementation with KJobs.
  .

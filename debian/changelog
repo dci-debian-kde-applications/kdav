@@ -5,6 +5,10 @@ kdav (17.12.1-0) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * remove patch: disable_network_tests (not needed anymore).
   * Enable build tests.
+  * Use DebianABIManager to handle libkpimKDAV* properly
+  * Update library from libkpimkdav55 -> libkkpimkdav5abi1, because of
+    ABI breakage.
+  * Add new package libkpimkdav-data to hold arch independent files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 07 Feb 2018 13:37:23 +0100
 

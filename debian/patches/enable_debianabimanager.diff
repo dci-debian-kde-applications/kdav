@@ -1,0 +1,8 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -81,3 +81,5 @@ feature_summary(WHAT ALL
+                 INCLUDE_QUIET_PACKAGES
+                 FATAL_ON_MISSING_REQUIRED_PACKAGES
+ )
++
++include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)
